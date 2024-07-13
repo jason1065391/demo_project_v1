@@ -1,0 +1,46 @@
+/* public/css/pages/home.css */
+
+/* 首頁特定的樣式 */
+
+/* 首頁容器樣式 */
+.home-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* 首頁標題樣式 */
+.home-container h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* 首頁段落樣式 */
+.home-container p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.8;
+}
+
+/* 首頁圖片樣式 */
+.home-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* 特定元素的樣式 */
+.special-offer {
+    background-color: #ffeb3b;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.special-offer p {
+    color: #333;
+    font-weight: bold;
+}

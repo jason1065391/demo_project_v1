@@ -1,0 +1,20 @@
+/* public/css/layouts/footer.css */
+
+/* 頁腳樣式 */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 針對小螢幕設備的頁腳樣式 */
+@media (max-width: 768px) {
+    footer {
+        position: static;
+        padding: 20px 0;
+    }
+}

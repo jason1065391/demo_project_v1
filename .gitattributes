@@ -1,5 +1,12 @@
 * text=auto eol=lf
 
+# 對特定類型的文件設置行結尾
+*.css text eol=lf
+*.js text eol=lf
+*.php text eol=lf
+*.blade.php text eol=lf
+
+
 *.blade.php diff=html
 *.css diff=css
 *.html diff=html
@@ -9,3 +16,4 @@
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
+
