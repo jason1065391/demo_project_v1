@@ -24,6 +24,10 @@
         @yield('content')
     </div>
 
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
+    @stack('scripts')
+
     @include('layouts.footer')
 </body>
 </html>
