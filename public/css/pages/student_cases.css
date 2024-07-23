@@ -1,0 +1,13 @@
+.student_cases_container{
+    display: flex;
+}
+
+.s_search{
+    width: 35%;
+    background-color: antiquewhite;
+}
+
+.s_cases{
+    width: 60%;
+    margin-left: 20px;
+}

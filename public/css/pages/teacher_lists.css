@@ -1,0 +1,13 @@
+.teacher_lists_container{
+    display: flex;
+}
+
+.t_search{
+    width: 35%;
+    background-color: antiquewhite;
+}
+
+.t_lists{
+    width: 60%;
+    margin-left: 20px;
+}
